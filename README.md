@@ -52,33 +52,95 @@ python3 server.py --stdio
 ```
 
 ### 2. Run as Systemd Background Service (Port 8003 - Active)
-The server is configured as a persistent systemd service running in HTTP mode on port 8003:
 
-```bash
-# Service status
-systemctl status academic-calendar.service
+The server is deployed as a persistent Linux `systemd` daemon for 24/7 background operation.
 
-# Restart service
-systemctl restart academic-calendar.service
+#### 📋 Service Quick Reference Card
 
-# Stop / Start service
-systemctl stop academic-calendar.service
-systemctl start academic-calendar.service
+| Parameter | Value |
+|---|---|
+| **Service Name** | `academic-calendar.service` |
+| **Systemd Unit File** | `/etc/systemd/system/academic-calendar.service` |
+| **Repository Unit Copy** | [`academic-calendar.service`](./academic-calendar.service) |
+| **Listen Port** | `8003` |
+| **Bind Host** | `0.0.0.0` (Accessible on local network and localhost) |
+| **Execution Mode** | HTTP REST (FastAPI) + OpenAPI 3.1 + MCP SSE |
+| **Working Directory** | `/home/hirthikbalaji/SocialMedia/ACADEMIC_CALENDER` |
+| **Python Binary** | `/usr/bin/python3` |
+| **Start Command** | `/usr/bin/python3 /home/hirthikbalaji/SocialMedia/ACADEMIC_CALENDER/server.py --http --host 0.0.0.0 --port 8003` |
+| **Restart Policy** | `always` (`RestartSec=3s`) |
+| **Run As User** | `root` |
+| **Environment** | `PYTHONUNBUFFERED=1` |
 
-# View live logs
-journalctl -u academic-calendar.service -f
-```
+#### 🌐 Service URLs (Port 8003)
 
 - **OpenAPI 3.1 JSON**: [http://localhost:8003/openapi.json](http://localhost:8003/openapi.json)
 - **OpenAPI 3.1 YAML**: [http://localhost:8003/openapi.yaml](http://localhost:8003/openapi.yaml)
 - **Interactive Swagger UI**: [http://localhost:8003/docs](http://localhost:8003/docs)
-- **ReDoc UI**: [http://localhost:8003/redoc](http://localhost:8003/redoc)
+- **ReDoc Documentation**: [http://localhost:8003/redoc](http://localhost:8003/redoc)
 - **MCP SSE Transport**: [http://localhost:8003/sse](http://localhost:8003/sse)
 - **Health Check**: [http://localhost:8003/health](http://localhost:8003/health)
 
-### 3. Run Manually via CLI (HTTP & SSE Mode)
+#### 🛠️ Service Management Commands
+
 ```bash
+# Check service status and health
+systemctl status academic-calendar.service
+
+# Restart the service (e.g. after code changes or updates)
+systemctl restart academic-calendar.service
+
+# Stop the service
+systemctl stop academic-calendar.service
+
+# Start the service
+systemctl start academic-calendar.service
+
+# Enable autostart on system boot
+systemctl enable academic-calendar.service
+
+# Disable autostart on system boot
+systemctl disable academic-calendar.service
+
+# Reload systemd configuration after modifying the unit file
+systemctl daemon-reload
+
+# View real-time streaming logs
+journalctl -u academic-calendar.service -f
+
+# View the last 50 log entries without paging
+journalctl -u academic-calendar.service -n 50 --no-pager
+
+# Verify that the server is actively listening on port 8003
+ss -tulpn | grep 8003
+```
+
+#### 🧪 Quick curl Verification
+
+```bash
+# 1. Health check
+curl -s http://localhost:8003/health
+
+# 2. Get OpenAPI spec
+curl -s http://localhost:8003/openapi.json
+
+# 3. Query calendar entry for Gandhi Jayanthi (Holiday)
+curl -s http://localhost:8003/api/v1/date/2026-10-02
+
+# 4. Search for Midterm Exam dates
+curl -s "http://localhost:8003/api/v1/search?q=Midterm"
+
+# 5. Get all working Saturdays with swapped timetables
+curl -s http://localhost:8003/api/v1/timetable-swaps
+```
+
+### 3. Run Manually via CLI (Development Mode)
+```bash
+# HTTP & SSE Mode on custom port
 python3 server.py --http --port 8003 --host 0.0.0.0
+
+# Stdio MCP Mode (for interactive terminal / stdin pipe)
+python3 server.py --stdio
 ```
 
 ### 4. Re-export OpenAPI Specifications
