@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "avv-chennai-academic-calendar": {
+      "command": "python3",
+      "args": [
+        "/home/hirthikbalaji/SocialMedia/ACADEMIC_CALENDER/server.py",
+        "--stdio"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  }
+}

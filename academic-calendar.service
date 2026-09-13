@@ -1,0 +1,15 @@
+[Unit]
+Description=Amrita Vishwa Vidyapeetham (Chennai) Academic Calendar MCP & OpenAPI Server
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/hirthikbalaji/SocialMedia/ACADEMIC_CALENDER
+ExecStart=/usr/bin/python3 /home/hirthikbalaji/SocialMedia/ACADEMIC_CALENDER/server.py --http --host 0.0.0.0 --port 8003
+Restart=always
+RestartSec=3
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

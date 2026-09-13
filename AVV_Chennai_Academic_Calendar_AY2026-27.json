@@ -1,0 +1,3016 @@
+{
+  "institution": "Amrita Vishwa Vidyapeetham, Chennai",
+  "document_title": "Academic Calendar - AY2026-27",
+  "version": "V2.0",
+  "academic_year": "2026-27",
+  "prepared_by": "Dr. Ganesh Kumar C, Campus Timetable Coordinator",
+  "approved_by": "Dr. V. Jayakumar, Principal",
+  "note": "The proposed calendar is subject to change, possibly due to administrative needs or unforeseen factors",
+  "legend": {
+    "W": "Working Day for Staffs",
+    "CD": "Working Day for Staffs & Students",
+    "H": "Holiday for Staffs & Students"
+  },
+  "columns_in_source": [
+    "Date",
+    "Day",
+    "H/W",
+    "II, III, IV Year UG and II Year PG",
+    "I Year UG and I Year PG",
+    "Details"
+  ],
+  "calendar": [
+    {
+      "date": "2026-06-01",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-06-02",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-06-03",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-06-04",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-06-05",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-06-06",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-06-07",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-06-08",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-06-09",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-06-10",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD01",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Commencement of III, V, & VII Sem UG and III Sem PG Classes"
+    },
+    {
+      "date": "2026-06-11",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD02",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-06-12",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD03",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-06-13",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Non-Instructional Day for III, V, & VII Sem UG and III Sem PG Classes"
+    },
+    {
+      "date": "2026-06-14",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-06-15",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD04",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-06-16",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD05",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-06-17",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD06",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-06-18",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD07",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-06-19",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD08",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-06-20",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Non-Instructional Day for III, V, & VII Sem UG and III Sem PG Classes"
+    },
+    {
+      "date": "2026-06-21",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-06-22",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD09",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-06-23",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD10",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-06-24",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD11",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-06-25",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD12",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-06-26",
+      "day": "Fri",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Muharram"
+    },
+    {
+      "date": "2026-06-27",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-06-28",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-06-29",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD13",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-06-30",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD14",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-07-01",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD15",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-07-02",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD16",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-07-03",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD17",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-07-04",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-07-05",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-07-06",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD18",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-07-07",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD19",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-07-08",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD20",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-07-09",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD21",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-07-10",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD22",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-07-11",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Non-Instructional Day for III, V, & VII Sem UG and III Sem PG Classes"
+    },
+    {
+      "date": "2026-07-12",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-07-13",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD23",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-07-14",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD24",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-07-15",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD25",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-07-16",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD26",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "First Class Committee Meeting for III, V, & VII Sem UG and III Sem PG Classes"
+    },
+    {
+      "date": "2026-07-17",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD27",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "First Class Committee Meeting for III, V, & VII Sem UG and III Sem PG Classes"
+    },
+    {
+      "date": "2026-07-18",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-07-19",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-07-20",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD28",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-07-21",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD29",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-07-22",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD30",
+      "i_year_ug_and_i_year_pg": "CD01",
+      "details": "Commencement of I Sem UG and I Sem PG Classes"
+    },
+    {
+      "date": "2026-07-23",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD31",
+      "i_year_ug_and_i_year_pg": "CD02",
+      "details": null
+    },
+    {
+      "date": "2026-07-24",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD32",
+      "i_year_ug_and_i_year_pg": "CD03",
+      "details": null
+    },
+    {
+      "date": "2026-07-25",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD04",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Non-Instructional Day for III, V, & VII Sem UG and III Sem PG Classes; Instructional Day for I Sem UG and I Sem PG Classes (Monday TT)"
+    },
+    {
+      "date": "2026-07-26",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-07-27",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD33",
+      "i_year_ug_and_i_year_pg": "CD05",
+      "details": null
+    },
+    {
+      "date": "2026-07-28",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD34",
+      "i_year_ug_and_i_year_pg": "CD06",
+      "details": null
+    },
+    {
+      "date": "2026-07-29",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD35",
+      "i_year_ug_and_i_year_pg": "CD07",
+      "details": null
+    },
+    {
+      "date": "2026-07-30",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD36",
+      "i_year_ug_and_i_year_pg": "CD08",
+      "details": null
+    },
+    {
+      "date": "2026-07-31",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD37",
+      "i_year_ug_and_i_year_pg": "CD09",
+      "details": "Mid Semester Faculty Feedback for III, V, & VII Sem UG and III Sem PG Classes"
+    },
+    {
+      "date": "2026-08-01",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-08-02",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-08-03",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD38",
+      "i_year_ug_and_i_year_pg": "CD10",
+      "details": null
+    },
+    {
+      "date": "2026-08-04",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD39",
+      "i_year_ug_and_i_year_pg": "CD11",
+      "details": null
+    },
+    {
+      "date": "2026-08-05",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD40",
+      "i_year_ug_and_i_year_pg": "CD12",
+      "details": null
+    },
+    {
+      "date": "2026-08-06",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD41",
+      "i_year_ug_and_i_year_pg": "CD13",
+      "details": null
+    },
+    {
+      "date": "2026-08-07",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD42",
+      "i_year_ug_and_i_year_pg": "CD14",
+      "details": "Commencement of Midterm Exam for III, V, & VII Sem UG and III Sem PG Classes"
+    },
+    {
+      "date": "2026-08-08",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD43",
+      "i_year_ug_and_i_year_pg": "CD15",
+      "details": "Instructional Day (Friday TT)"
+    },
+    {
+      "date": "2026-08-09",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-08-10",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD44",
+      "i_year_ug_and_i_year_pg": "CD16",
+      "details": null
+    },
+    {
+      "date": "2026-08-11",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD45",
+      "i_year_ug_and_i_year_pg": "CD17",
+      "details": null
+    },
+    {
+      "date": "2026-08-12",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD46",
+      "i_year_ug_and_i_year_pg": "CD18",
+      "details": null
+    },
+    {
+      "date": "2026-08-13",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD47",
+      "i_year_ug_and_i_year_pg": "CD19",
+      "details": null
+    },
+    {
+      "date": "2026-08-14",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD48",
+      "i_year_ug_and_i_year_pg": "CD20",
+      "details": null
+    },
+    {
+      "date": "2026-08-15",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Independence Day"
+    },
+    {
+      "date": "2026-08-16",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-08-17",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD49",
+      "i_year_ug_and_i_year_pg": "CD21",
+      "details": null
+    },
+    {
+      "date": "2026-08-18",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD50",
+      "i_year_ug_and_i_year_pg": "CD22",
+      "details": null
+    },
+    {
+      "date": "2026-08-19",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD51",
+      "i_year_ug_and_i_year_pg": "CD23",
+      "details": null
+    },
+    {
+      "date": "2026-08-20",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD52",
+      "i_year_ug_and_i_year_pg": "CD24",
+      "details": null
+    },
+    {
+      "date": "2026-08-21",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD53",
+      "i_year_ug_and_i_year_pg": "CD25",
+      "details": null
+    },
+    {
+      "date": "2026-08-22",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD26",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Non-Instructional Day for III, V, & VII Sem UG and III Sem PG Classes; Instructional Day for I Sem UG and I Sem PG Classes (Tuesday TT)"
+    },
+    {
+      "date": "2026-08-23",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-08-24",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD54",
+      "i_year_ug_and_i_year_pg": "CD27",
+      "details": "First Class Committee Meeting for I Sem UG and I Sem PG Classes"
+    },
+    {
+      "date": "2026-08-25",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD55",
+      "i_year_ug_and_i_year_pg": "CD28",
+      "details": "First Class Committee Meeting for I Sem UG and I Sem PG Classes"
+    },
+    {
+      "date": "2026-08-26",
+      "day": "Wed",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Onam Sadhya / Milad-un-Nabi"
+    },
+    {
+      "date": "2026-08-27",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD56",
+      "i_year_ug_and_i_year_pg": "CD29",
+      "details": null
+    },
+    {
+      "date": "2026-08-28",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD57",
+      "i_year_ug_and_i_year_pg": "CD30",
+      "details": null
+    },
+    {
+      "date": "2026-08-29",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD31",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Non-Instructional Day for III, V, & VII Sem UG and III Sem PG Classes; Instructional Day for I Sem UG and I Sem PG Classes (Wednesday TT)"
+    },
+    {
+      "date": "2026-08-30",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-08-31",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD58",
+      "i_year_ug_and_i_year_pg": "CD32",
+      "details": null
+    },
+    {
+      "date": "2026-09-01",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD59",
+      "i_year_ug_and_i_year_pg": "CD33",
+      "details": null
+    },
+    {
+      "date": "2026-09-02",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD60",
+      "i_year_ug_and_i_year_pg": "CD34",
+      "details": null
+    },
+    {
+      "date": "2026-09-03",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD61",
+      "i_year_ug_and_i_year_pg": "CD35",
+      "details": null
+    },
+    {
+      "date": "2026-09-04",
+      "day": "Fri",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Krishna Janmashtami"
+    },
+    {
+      "date": "2026-09-05",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-09-06",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-09-07",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD62",
+      "i_year_ug_and_i_year_pg": "CD36",
+      "details": "Mid Semester Faculty Feedback for I Sem UG and I Sem PG Classes"
+    },
+    {
+      "date": "2026-09-08",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD63",
+      "i_year_ug_and_i_year_pg": "CD37",
+      "details": null
+    },
+    {
+      "date": "2026-09-09",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD64",
+      "i_year_ug_and_i_year_pg": "CD38",
+      "details": null
+    },
+    {
+      "date": "2026-09-10",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD65",
+      "i_year_ug_and_i_year_pg": "CD39",
+      "details": null
+    },
+    {
+      "date": "2026-09-11",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD66",
+      "i_year_ug_and_i_year_pg": "CD40",
+      "details": null
+    },
+    {
+      "date": "2026-09-12",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD41",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Non-Instructional Day for III, V, & VII Sem UG and III Sem PG Classes; Instructional Day for I Sem UG and I Sem PG Classes (Friday TT)"
+    },
+    {
+      "date": "2026-09-13",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-09-14",
+      "day": "Mon",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Vinayakar Chaturthi"
+    },
+    {
+      "date": "2026-09-15",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD67",
+      "i_year_ug_and_i_year_pg": "CD42",
+      "details": null
+    },
+    {
+      "date": "2026-09-16",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD68",
+      "i_year_ug_and_i_year_pg": "CD43",
+      "details": null
+    },
+    {
+      "date": "2026-09-17",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD69",
+      "i_year_ug_and_i_year_pg": "CD44",
+      "details": null
+    },
+    {
+      "date": "2026-09-18",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD70",
+      "i_year_ug_and_i_year_pg": "CD45",
+      "details": "Commencement of Midterm Exam for I Sem UG and I Sem PG Classes"
+    },
+    {
+      "date": "2026-09-19",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD46",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Non-Instructional Day for III, V, & VII Sem UG and III Sem PG Classes; Instructional Day for I Sem UG and I Sem PG Classes (Monday TT)"
+    },
+    {
+      "date": "2026-09-20",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-09-21",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD71",
+      "i_year_ug_and_i_year_pg": "CD47",
+      "details": null
+    },
+    {
+      "date": "2026-09-22",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD72",
+      "i_year_ug_and_i_year_pg": "CD48",
+      "details": "Second Class Committee Meeting for III, V, & VII Sem UG and III Sem PG Classes"
+    },
+    {
+      "date": "2026-09-23",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD73",
+      "i_year_ug_and_i_year_pg": "CD49",
+      "details": "Second Class Committee Meeting for III, V, & VII Sem UG and III Sem PG Classes"
+    },
+    {
+      "date": "2026-09-24",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD74",
+      "i_year_ug_and_i_year_pg": "CD50",
+      "details": "Commencement of Missed Midterm for III, V, & VII Sem UG and III Sem PG Classes"
+    },
+    {
+      "date": "2026-09-25",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD75",
+      "i_year_ug_and_i_year_pg": "CD51",
+      "details": null
+    },
+    {
+      "date": "2026-09-26",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-09-27",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Amma's Jayanthi"
+    },
+    {
+      "date": "2026-09-28",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD76",
+      "i_year_ug_and_i_year_pg": "CD52",
+      "details": null
+    },
+    {
+      "date": "2026-09-29",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD77",
+      "i_year_ug_and_i_year_pg": "CD53",
+      "details": null
+    },
+    {
+      "date": "2026-09-30",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD78",
+      "i_year_ug_and_i_year_pg": "CD54",
+      "details": null
+    },
+    {
+      "date": "2026-10-01",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD79",
+      "i_year_ug_and_i_year_pg": "CD55",
+      "details": null
+    },
+    {
+      "date": "2026-10-02",
+      "day": "Fri",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Gandhi Jayanthi"
+    },
+    {
+      "date": "2026-10-03",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-10-04",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-10-05",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD80",
+      "i_year_ug_and_i_year_pg": "CD56",
+      "details": "Commencement of End Semester Practical Exam for III, V, & VII Sem UG and III Sem PG Classes"
+    },
+    {
+      "date": "2026-10-06",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD81",
+      "i_year_ug_and_i_year_pg": "CD57",
+      "details": null
+    },
+    {
+      "date": "2026-10-07",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD82",
+      "i_year_ug_and_i_year_pg": "CD58",
+      "details": null
+    },
+    {
+      "date": "2026-10-08",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD83",
+      "i_year_ug_and_i_year_pg": "CD59",
+      "details": null
+    },
+    {
+      "date": "2026-10-09",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD84",
+      "i_year_ug_and_i_year_pg": "CD60",
+      "details": null
+    },
+    {
+      "date": "2026-10-10",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD85",
+      "i_year_ug_and_i_year_pg": "CD61",
+      "details": "Instructional Day (Monday TT)"
+    },
+    {
+      "date": "2026-10-11",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-10-12",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD86",
+      "i_year_ug_and_i_year_pg": "CD62",
+      "details": null
+    },
+    {
+      "date": "2026-10-13",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD87",
+      "i_year_ug_and_i_year_pg": "CD63",
+      "details": null
+    },
+    {
+      "date": "2026-10-14",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD88",
+      "i_year_ug_and_i_year_pg": "CD64",
+      "details": "End Semester Faculty Feedback for III, V, & VII Sem UG and III Sem PG Classes"
+    },
+    {
+      "date": "2026-10-15",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD89",
+      "i_year_ug_and_i_year_pg": "CD65",
+      "details": null
+    },
+    {
+      "date": "2026-10-16",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD90",
+      "i_year_ug_and_i_year_pg": "CD66",
+      "details": "Last Instruction Day for III, V, & VII Sem UG and III Sem PG Classes"
+    },
+    {
+      "date": "2026-10-17",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-10-18",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-10-19",
+      "day": "Mon",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Ayutha Pooja"
+    },
+    {
+      "date": "2026-10-20",
+      "day": "Tue",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Vijaya Dasami"
+    },
+    {
+      "date": "2026-10-21",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD67",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-10-22",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD68",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Commencement of End Semester Exam for III, V, & VII Sem UG and III Sem PG Classes"
+    },
+    {
+      "date": "2026-10-23",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD69",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-10-24",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD70",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Instructional Day for I Sem UG and I Sem PG Classes (Tuesday TT)"
+    },
+    {
+      "date": "2026-10-25",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-10-26",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD71",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Second Class Committee Meeting for I Sem UG and I Sem PG Classes"
+    },
+    {
+      "date": "2026-10-27",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD72",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Second Class Committee Meeting for I Sem UG and I Sem PG Classes"
+    },
+    {
+      "date": "2026-10-28",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD73",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-10-29",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD74",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-10-30",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD75",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-10-31",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD76",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Instructional Day for I Sem UG and I Sem PG Classes (Friday TT)"
+    },
+    {
+      "date": "2026-11-01",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-11-02",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD77",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Commencement of Missed Midterm for I Sem UG and I Sem PG Classes"
+    },
+    {
+      "date": "2026-11-03",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD78",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-11-04",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD79",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-11-05",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD80",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-11-06",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD81",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-11-07",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-11-08",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Deepavali"
+    },
+    {
+      "date": "2026-11-09",
+      "day": "Mon",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-11-10",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD82",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Commencement of End Semester Practical Exam for I Sem UG and I Sem PG Classes"
+    },
+    {
+      "date": "2026-11-11",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD83",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-11-12",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD84",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-11-13",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD85",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-11-14",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD86",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Instructional Day for I Sem UG and I Sem PG Classes (Monday TT)"
+    },
+    {
+      "date": "2026-11-15",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-11-16",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD87",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "End Semester Faculty Feedback for I Sem UG and I Sem PG Classes"
+    },
+    {
+      "date": "2026-11-17",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD88",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-11-18",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD01",
+      "i_year_ug_and_i_year_pg": "CD89",
+      "details": "Commencement of IV, VI & VIII Sem UG and IV Sem PG Classes"
+    },
+    {
+      "date": "2026-11-19",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD02",
+      "i_year_ug_and_i_year_pg": "CD90",
+      "details": "Last Instruction Day for I Sem UG and I Sem PG Classes"
+    },
+    {
+      "date": "2026-11-20",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD03",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Commencement of End Semester Exam for I Sem UG and I Sem PG Classes"
+    },
+    {
+      "date": "2026-11-21",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-11-22",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-11-23",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD04",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-11-24",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD05",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-11-25",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD06",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-11-26",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD07",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-11-27",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD08",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-11-28",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Non-Instructional Day for IV, VI, & VIII Sem UG and IV Sem PG Classes"
+    },
+    {
+      "date": "2026-11-29",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-11-30",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD09",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-12-01",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD10",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-12-02",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD11",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-12-03",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD12",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-12-04",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD13",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-12-05",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-12-06",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-12-07",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD14",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-12-08",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD15",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-12-09",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD16",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-12-10",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD17",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-12-11",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD18",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2026-12-12",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Non-Instructional Day for IV, VI, & VIII Sem UG and IV Sem PG Classes"
+    },
+    {
+      "date": "2026-12-13",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-12-14",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD19",
+      "i_year_ug_and_i_year_pg": "CD01",
+      "details": "Commencement of II Sem UG and II Sem PG Classes"
+    },
+    {
+      "date": "2026-12-15",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD20",
+      "i_year_ug_and_i_year_pg": "CD02",
+      "details": null
+    },
+    {
+      "date": "2026-12-16",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD21",
+      "i_year_ug_and_i_year_pg": "CD03",
+      "details": null
+    },
+    {
+      "date": "2026-12-17",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD22",
+      "i_year_ug_and_i_year_pg": "CD04",
+      "details": null
+    },
+    {
+      "date": "2026-12-18",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD23",
+      "i_year_ug_and_i_year_pg": "CD05",
+      "details": null
+    },
+    {
+      "date": "2026-12-19",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD06",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Non-Instructional Day for IV, VI, & VIII Sem UG and IV Sem PG Classes; Instructional Day for II Sem UG and II Sem PG Classes (Friday TT)"
+    },
+    {
+      "date": "2026-12-20",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-12-21",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD24",
+      "i_year_ug_and_i_year_pg": "CD07",
+      "details": null
+    },
+    {
+      "date": "2026-12-22",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD25",
+      "i_year_ug_and_i_year_pg": "CD08",
+      "details": null
+    },
+    {
+      "date": "2026-12-23",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD26",
+      "i_year_ug_and_i_year_pg": "CD09",
+      "details": "First Class Committee Meeting for IV, VI, & VIII Sem UG and IV Sem PG Classes"
+    },
+    {
+      "date": "2026-12-24",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD27",
+      "i_year_ug_and_i_year_pg": "CD10",
+      "details": "First Class Committee Meeting for IV, VI, & VIII Sem UG and IV Sem PG Classes"
+    },
+    {
+      "date": "2026-12-25",
+      "day": "Fri",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Christmas"
+    },
+    {
+      "date": "2026-12-26",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-12-27",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2026-12-28",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD28",
+      "i_year_ug_and_i_year_pg": "CD11",
+      "details": null
+    },
+    {
+      "date": "2026-12-29",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD29",
+      "i_year_ug_and_i_year_pg": "CD12",
+      "details": null
+    },
+    {
+      "date": "2026-12-30",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD30",
+      "i_year_ug_and_i_year_pg": "CD13",
+      "details": null
+    },
+    {
+      "date": "2026-12-31",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD31",
+      "i_year_ug_and_i_year_pg": "CD14",
+      "details": null
+    },
+    {
+      "date": "2027-01-01",
+      "day": "Fri",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - New Year"
+    },
+    {
+      "date": "2027-01-02",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-01-03",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-01-04",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD32",
+      "i_year_ug_and_i_year_pg": "CD15",
+      "details": null
+    },
+    {
+      "date": "2027-01-05",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD33",
+      "i_year_ug_and_i_year_pg": "CD16",
+      "details": null
+    },
+    {
+      "date": "2027-01-06",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD34",
+      "i_year_ug_and_i_year_pg": "CD17",
+      "details": null
+    },
+    {
+      "date": "2027-01-07",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD35",
+      "i_year_ug_and_i_year_pg": "CD18",
+      "details": null
+    },
+    {
+      "date": "2027-01-08",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD36",
+      "i_year_ug_and_i_year_pg": "CD19",
+      "details": "Mid Semester Faculty Feedback for IV, VI, & VIII Sem UG and IV Sem PG Classes"
+    },
+    {
+      "date": "2027-01-09",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD20",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Non-Instructional Day for IV, VI, & VIII Sem UG and IV Sem PG Classes; Instructional Day for II Sem UG and II Sem PG Classes (Thursday TT)"
+    },
+    {
+      "date": "2027-01-10",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-01-11",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD37",
+      "i_year_ug_and_i_year_pg": "CD21",
+      "details": null
+    },
+    {
+      "date": "2027-01-12",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD38",
+      "i_year_ug_and_i_year_pg": "CD22",
+      "details": null
+    },
+    {
+      "date": "2027-01-13",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD39",
+      "i_year_ug_and_i_year_pg": "CD23",
+      "details": null
+    },
+    {
+      "date": "2027-01-14",
+      "day": "Thu",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-01-15",
+      "day": "Fri",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Pongal"
+    },
+    {
+      "date": "2027-01-16",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Uzhavar Thirunal"
+    },
+    {
+      "date": "2027-01-17",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-01-18",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD40",
+      "i_year_ug_and_i_year_pg": "CD24",
+      "details": null
+    },
+    {
+      "date": "2027-01-19",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD41",
+      "i_year_ug_and_i_year_pg": "CD25",
+      "details": null
+    },
+    {
+      "date": "2027-01-20",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD42",
+      "i_year_ug_and_i_year_pg": "CD26",
+      "details": null
+    },
+    {
+      "date": "2027-01-21",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD43",
+      "i_year_ug_and_i_year_pg": "CD27",
+      "details": "First Class Committee Meeting for II Sem UG and II Sem PG Classes"
+    },
+    {
+      "date": "2027-01-22",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD44",
+      "i_year_ug_and_i_year_pg": "CD28",
+      "details": "First Class Committee Meeting for II Sem UG and II Sem PG Classes"
+    },
+    {
+      "date": "2027-01-23",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Thaipoosam"
+    },
+    {
+      "date": "2027-01-24",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-01-25",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD45",
+      "i_year_ug_and_i_year_pg": "CD29",
+      "details": null
+    },
+    {
+      "date": "2027-01-26",
+      "day": "Tue",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Republic Day"
+    },
+    {
+      "date": "2027-01-27",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD46",
+      "i_year_ug_and_i_year_pg": "CD30",
+      "details": "Commencement of Midterm Exam for IV & VI Sem UG Classes"
+    },
+    {
+      "date": "2027-01-28",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD47",
+      "i_year_ug_and_i_year_pg": "CD31",
+      "details": null
+    },
+    {
+      "date": "2027-01-29",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD48",
+      "i_year_ug_and_i_year_pg": "CD32",
+      "details": null
+    },
+    {
+      "date": "2027-01-30",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD49",
+      "i_year_ug_and_i_year_pg": "CD33",
+      "details": "Instructional Day (Friday TT)"
+    },
+    {
+      "date": "2027-01-31",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-02-01",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD50",
+      "i_year_ug_and_i_year_pg": "CD34",
+      "details": null
+    },
+    {
+      "date": "2027-02-02",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD51",
+      "i_year_ug_and_i_year_pg": "CD35",
+      "details": null
+    },
+    {
+      "date": "2027-02-03",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD52",
+      "i_year_ug_and_i_year_pg": "CD36",
+      "details": "Mid Semester Faculty Feedback for II Sem UG and II Sem PG Classes"
+    },
+    {
+      "date": "2027-02-04",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD53",
+      "i_year_ug_and_i_year_pg": "CD37",
+      "details": null
+    },
+    {
+      "date": "2027-02-05",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD54",
+      "i_year_ug_and_i_year_pg": "CD38",
+      "details": null
+    },
+    {
+      "date": "2027-02-06",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-02-07",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-02-08",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD55",
+      "i_year_ug_and_i_year_pg": "CD39",
+      "details": null
+    },
+    {
+      "date": "2027-02-09",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD56",
+      "i_year_ug_and_i_year_pg": "CD40",
+      "details": null
+    },
+    {
+      "date": "2027-02-10",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD57",
+      "i_year_ug_and_i_year_pg": "CD41",
+      "details": null
+    },
+    {
+      "date": "2027-02-11",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD58",
+      "i_year_ug_and_i_year_pg": "CD42",
+      "details": null
+    },
+    {
+      "date": "2027-02-12",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD59",
+      "i_year_ug_and_i_year_pg": "CD43",
+      "details": "Commencement of Midterm Exam for II Sem UG and II Sem PG Classes"
+    },
+    {
+      "date": "2027-02-13",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD44",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Non-Instructional Day for IV, VI, & VIII Sem UG and IV Sem PG Classes; Instructional Day for II Sem UG and II Sem PG Classes (Tuesday TT)"
+    },
+    {
+      "date": "2027-02-14",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-02-15",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD60",
+      "i_year_ug_and_i_year_pg": "CD45",
+      "details": null
+    },
+    {
+      "date": "2027-02-16",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD61",
+      "i_year_ug_and_i_year_pg": "CD46",
+      "details": null
+    },
+    {
+      "date": "2027-02-17",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD62",
+      "i_year_ug_and_i_year_pg": "CD47",
+      "details": null
+    },
+    {
+      "date": "2027-02-18",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD63",
+      "i_year_ug_and_i_year_pg": "CD48",
+      "details": null
+    },
+    {
+      "date": "2027-02-19",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD64",
+      "i_year_ug_and_i_year_pg": "CD49",
+      "details": null
+    },
+    {
+      "date": "2027-02-20",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-02-21",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-02-22",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD65",
+      "i_year_ug_and_i_year_pg": "CD50",
+      "details": null
+    },
+    {
+      "date": "2027-02-23",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD66",
+      "i_year_ug_and_i_year_pg": "CD51",
+      "details": null
+    },
+    {
+      "date": "2027-02-24",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD67",
+      "i_year_ug_and_i_year_pg": "CD52",
+      "details": null
+    },
+    {
+      "date": "2027-02-25",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD68",
+      "i_year_ug_and_i_year_pg": "CD53",
+      "details": null
+    },
+    {
+      "date": "2027-02-26",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD69",
+      "i_year_ug_and_i_year_pg": "CD54",
+      "details": null
+    },
+    {
+      "date": "2027-02-27",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD55",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Non-Instructional Day for IV, VI, & VIII Sem UG and IV Sem PG Classes; Instructional Day for II Sem UG and II Sem PG Classes (Friday TT)"
+    },
+    {
+      "date": "2027-02-28",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-03-01",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD70",
+      "i_year_ug_and_i_year_pg": "CD56",
+      "details": null
+    },
+    {
+      "date": "2027-03-02",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD71",
+      "i_year_ug_and_i_year_pg": "CD57",
+      "details": null
+    },
+    {
+      "date": "2027-03-03",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD72",
+      "i_year_ug_and_i_year_pg": "CD58",
+      "details": null
+    },
+    {
+      "date": "2027-03-04",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD73",
+      "i_year_ug_and_i_year_pg": "CD59",
+      "details": "Second Class Committee Meeting for IV, VI, & VIII Sem UG and IV Sem PG Classes"
+    },
+    {
+      "date": "2027-03-05",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD74",
+      "i_year_ug_and_i_year_pg": "CD60",
+      "details": "Second Class Committee Meeting for IV, VI, & VIII Sem UG and IV Sem PG Classes"
+    },
+    {
+      "date": "2027-03-06",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-03-07",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-03-08",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD75",
+      "i_year_ug_and_i_year_pg": "CD61",
+      "details": "Commencement of Missed Midterm for IV & VI Sem UG Classes"
+    },
+    {
+      "date": "2027-03-09",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD76",
+      "i_year_ug_and_i_year_pg": "CD62",
+      "details": null
+    },
+    {
+      "date": "2027-03-10",
+      "day": "Wed",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Ramzan"
+    },
+    {
+      "date": "2027-03-11",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD77",
+      "i_year_ug_and_i_year_pg": "CD63",
+      "details": null
+    },
+    {
+      "date": "2027-03-12",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD78",
+      "i_year_ug_and_i_year_pg": "CD64",
+      "details": null
+    },
+    {
+      "date": "2027-03-13",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD65",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Non-Instructional Day for IV, VI, & VIII Sem UG and IV Sem PG Classes; Instructional Day for II Sem UG and II Sem PG Classes (Wednesday TT)"
+    },
+    {
+      "date": "2027-03-14",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-03-15",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD79",
+      "i_year_ug_and_i_year_pg": "CD66",
+      "details": null
+    },
+    {
+      "date": "2027-03-16",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD80",
+      "i_year_ug_and_i_year_pg": "CD67",
+      "details": null
+    },
+    {
+      "date": "2027-03-17",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD81",
+      "i_year_ug_and_i_year_pg": "CD68",
+      "details": "Commencement of End Semester Practical Exam for IV & VI Sem UG Classes"
+    },
+    {
+      "date": "2027-03-18",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD82",
+      "i_year_ug_and_i_year_pg": "CD69",
+      "details": null
+    },
+    {
+      "date": "2027-03-19",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD83",
+      "i_year_ug_and_i_year_pg": "CD70",
+      "details": null
+    },
+    {
+      "date": "2027-03-20",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD71",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Non-Instructional Day for IV, VI, & VIII Sem UG and IV Sem PG Classes; Instructional Day for II Sem UG and II Sem PG Classes (Friday TT)"
+    },
+    {
+      "date": "2027-03-21",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-03-22",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD84",
+      "i_year_ug_and_i_year_pg": "CD72",
+      "details": "Second Class Committee Meeting for II Sem UG and II Sem PG Classes"
+    },
+    {
+      "date": "2027-03-23",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD85",
+      "i_year_ug_and_i_year_pg": "CD73",
+      "details": "Second Class Committee Meeting for II Sem UG and II Sem PG Classes"
+    },
+    {
+      "date": "2027-03-24",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD86",
+      "i_year_ug_and_i_year_pg": "CD74",
+      "details": null
+    },
+    {
+      "date": "2027-03-25",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD87",
+      "i_year_ug_and_i_year_pg": "CD75",
+      "details": null
+    },
+    {
+      "date": "2027-03-26",
+      "day": "Fri",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Good Friday"
+    },
+    {
+      "date": "2027-03-27",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-03-28",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-03-29",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD88",
+      "i_year_ug_and_i_year_pg": "CD76",
+      "details": "End Semester Faculty Feedback for IV, VI & VIII Sem UG and IV Sem PG Classes; Commencement of Missed Midterm for II Sem UG and II Sem PG Classes"
+    },
+    {
+      "date": "2027-03-30",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD89",
+      "i_year_ug_and_i_year_pg": "CD77",
+      "details": null
+    },
+    {
+      "date": "2027-03-31",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD90",
+      "i_year_ug_and_i_year_pg": "CD78",
+      "details": "Last Instruction Day for IV, VI & VIII Sem UG and IV Sem PG Classes"
+    },
+    {
+      "date": "2027-04-01",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD79",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-04-02",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD80",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Commencement of End Semester Exam for IV & VI Sem UG Classes"
+    },
+    {
+      "date": "2027-04-03",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-04-04",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-04-05",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD81",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Commencement of End Semester Practical Exam for II Sem UG and II Sem PG Classes"
+    },
+    {
+      "date": "2027-04-06",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD82",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-04-07",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD83",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-04-08",
+      "day": "Thu",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Ugadi"
+    },
+    {
+      "date": "2027-04-09",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD84",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-04-10",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD85",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Instructional Day for II Sem UG and II Sem PG Classes (Thursday TT)"
+    },
+    {
+      "date": "2027-04-11",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-04-12",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD86",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "End Semester Faculty Feedback for II Sem UG and II Sem PG Classes"
+    },
+    {
+      "date": "2027-04-13",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD87",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-04-14",
+      "day": "Wed",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Tamil New Year"
+    },
+    {
+      "date": "2027-04-15",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD88",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-04-16",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD89",
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-04-17",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD90",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Instructional Day for II Sem UG and II Sem PG Classes (Wednesday TT); Last Instruction Day for II Sem UG and II Sem PG Classes"
+    },
+    {
+      "date": "2027-04-18",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-04-19",
+      "day": "Mon",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Mahavir Jayanti"
+    },
+    {
+      "date": "2027-04-20",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Commencement of End Semester Exam for II Sem UG and II Sem PG Classes"
+    },
+    {
+      "date": "2027-04-21",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-04-22",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-04-23",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-04-24",
+      "day": "Sat",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-04-25",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-04-26",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-04-27",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-04-28",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-04-29",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-04-30",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-01",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - May Day"
+    },
+    {
+      "date": "2027-05-02",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-05-03",
+      "day": "Mon",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-04",
+      "day": "Tue",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-05",
+      "day": "Wed",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-06",
+      "day": "Thu",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-07",
+      "day": "Fri",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-08",
+      "day": "Sat",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-09",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-05-10",
+      "day": "Mon",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-11",
+      "day": "Tue",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-12",
+      "day": "Wed",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-13",
+      "day": "Thu",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-14",
+      "day": "Fri",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-15",
+      "day": "Sat",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-16",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-05-17",
+      "day": "Mon",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday - Bakrid"
+    },
+    {
+      "date": "2027-05-18",
+      "day": "Tue",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-19",
+      "day": "Wed",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-20",
+      "day": "Thu",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-21",
+      "day": "Fri",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-22",
+      "day": "Sat",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-23",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-05-24",
+      "day": "Mon",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-25",
+      "day": "Tue",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-26",
+      "day": "Wed",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-27",
+      "day": "Thu",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-28",
+      "day": "Fri",
+      "status": null,
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-05-29",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-05-30",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-05-31",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-06-01",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-06-02",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-06-03",
+      "day": "Thu",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-06-04",
+      "day": "Fri",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-06-05",
+      "day": "Sat",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-06-06",
+      "day": "Sun",
+      "status": "H",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Holiday"
+    },
+    {
+      "date": "2027-06-07",
+      "day": "Mon",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-06-08",
+      "day": "Tue",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": null,
+      "i_year_ug_and_i_year_pg": null,
+      "details": null
+    },
+    {
+      "date": "2027-06-09",
+      "day": "Wed",
+      "status": "W",
+      "ii_iii_iv_year_ug_and_ii_year_pg": "CD01",
+      "i_year_ug_and_i_year_pg": null,
+      "details": "Commencement of III, V & VII Sem UG and III Sem PG Classes"
+    }
+  ]
+}

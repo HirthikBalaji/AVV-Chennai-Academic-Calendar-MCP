@@ -1,0 +1,907 @@
+openapi: 3.1.0
+info:
+  title: Amrita Vishwa Vidyapeetham, Chennai - Academic Calendar API
+  description: OpenAPI-compatible Academic Calendar Service & Model Context Protocol
+    (MCP) Server for Amrita Vishwa Vidyapeetham, Chennai (Academic Year 2026-27).
+    Designed for LLMs, autonomous agents, students, and faculty.
+  contact:
+    name: Campus Timetable Office
+    email: timetable@chennai.amrita.edu
+  license:
+    name: Internal Academic Use Only
+  version: 2.0.0
+paths:
+  /api/v1/metadata:
+    get:
+      tags:
+      - Calendar Metadata
+      summary: Get Academic Calendar Metadata
+      description: 'Retrieves official academic calendar metadata:
+
+        - Institution name, academic year, document title, and revision version
+
+        - Approval authority and timetable coordinator
+
+        - Legend explanation (W = Working for Staff, CD = Working for Staff & Students,
+        H = Holiday)
+
+        - Date span and total entry count'
+      operationId: get_metadata_api_v1_metadata_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CalendarMetadata'
+  /api/v1/date/{target_date}:
+    get:
+      tags:
+      - Date Queries
+      summary: Get Calendar Details for Specific Date
+      description: 'Retrieves complete schedule details for a single date:
+
+        - Day of week (Mon-Sun)
+
+        - Status code (W, CD, H, or None) and expanded description
+
+        - Class Day number for senior UG/PG (e.g. CD01) and first year UG/PG
+
+        - Special timetable instructions (e.g. ''Monday TT'' on a Saturday)
+
+        - Event details (examinations, holidays, feedback, meetings)'
+      operationId: get_date_details_api_v1_date__target_date__get
+      parameters:
+      - name: target_date
+        in: path
+        required: true
+        schema:
+          type: string
+          description: Date in YYYY-MM-DD format, or relative keyword 'today', 'tomorrow',
+            'yesterday'
+          examples:
+          - '2026-06-10'
+          - '2026-10-02'
+          - today
+          title: Target Date
+        description: Date in YYYY-MM-DD format, or relative keyword 'today', 'tomorrow',
+          'yesterday'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CalendarDayEntry'
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/calendar:
+    get:
+      tags:
+      - Date Queries
+      summary: Query Calendar Range with Filters
+      description: Query calendar entries within a range, optionally filtered by status,
+        cohort, or event type.
+      operationId: query_calendar_api_v1_calendar_get
+      parameters:
+      - name: start_date
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Start date (YYYY-MM-DD)
+          examples:
+          - '2026-06-01'
+          title: Start Date
+        description: Start date (YYYY-MM-DD)
+      - name: end_date
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: End date (YYYY-MM-DD)
+          examples:
+          - '2026-06-30'
+          title: End Date
+        description: End date (YYYY-MM-DD)
+      - name: status
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Status code filter ('W', 'CD', 'H')
+          examples:
+          - H
+          title: Status
+        description: Status code filter ('W', 'CD', 'H')
+      - name: cohort
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: 'Filter by cohort instructional day: ''senior_ug_pg'' or ''first_year'''
+          examples:
+          - senior_ug_pg
+          title: Cohort
+        description: 'Filter by cohort instructional day: ''senior_ug_pg'' or ''first_year'''
+      - name: event_type
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Filter by event type ('holiday', 'exam', 'practical_exam',
+            'commencement', 'feedback', 'committee_meeting', 'timetable_swap')
+          title: Event Type
+        description: Filter by event type ('holiday', 'exam', 'practical_exam', 'commencement',
+          'feedback', 'committee_meeting', 'timetable_swap')
+      - name: has_details
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: boolean
+          - type: 'null'
+          description: Only return days with non-empty details
+          title: Has Details
+        description: Only return days with non-empty details
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 400
+          minimum: 1
+          description: Max items to return
+          default: 100
+          title: Limit
+        description: Max items to return
+      - name: offset
+        in: query
+        required: false
+        schema:
+          type: integer
+          minimum: 0
+          description: Pagination offset
+          default: 0
+          title: Offset
+        description: Pagination offset
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CalendarDayEntry'
+                title: Response Query Calendar Api V1 Calendar Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/search:
+    get:
+      tags:
+      - Events & Search
+      summary: Search Events by Keyword
+      description: Full-text case-insensitive search across event details, dates,
+        and class days.
+      operationId: search_events_api_v1_search_get
+      parameters:
+      - name: q
+        in: query
+        required: true
+        schema:
+          type: string
+          description: Search keyword (e.g. 'Midterm', 'Deepavali', 'Practical', 'Commencement')
+          title: Q
+        description: Search keyword (e.g. 'Midterm', 'Deepavali', 'Practical', 'Commencement')
+      - name: cohort
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Optional cohort filter ('senior' or 'first_year')
+          title: Cohort
+        description: Optional cohort filter ('senior' or 'first_year')
+      - name: status
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Optional status filter ('W', 'H')
+          title: Status
+        description: Optional status filter ('W', 'H')
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 100
+          minimum: 1
+          description: Max search results
+          default: 50
+          title: Limit
+        description: Max search results
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CalendarDayEntry'
+                title: Response Search Events Api V1 Search Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/holidays:
+    get:
+      tags:
+      - Holidays & Swaps
+      summary: List Calendar Holidays
+      description: List holidays with optional filtering for named festivals (e.g.,
+        Deepavali, Pongal, Gandhi Jayanthi).
+      operationId: get_holidays_api_v1_holidays_get
+      parameters:
+      - name: start_date
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Start date (YYYY-MM-DD)
+          title: Start Date
+        description: Start date (YYYY-MM-DD)
+      - name: end_date
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: End date (YYYY-MM-DD)
+          title: End Date
+        description: End date (YYYY-MM-DD)
+      - name: month
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Specific month (YYYY-MM), e.g., '2026-10'
+          title: Month
+        description: Specific month (YYYY-MM), e.g., '2026-10'
+      - name: named_only
+        in: query
+        required: false
+        schema:
+          type: boolean
+          description: If true, only returns named festival and public holidays (excluding
+            recurring weekend holidays)
+          default: false
+          title: Named Only
+        description: If true, only returns named festival and public holidays (excluding
+          recurring weekend holidays)
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 200
+          minimum: 1
+          description: Max items
+          default: 100
+          title: Limit
+        description: Max items
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CalendarDayEntry'
+                title: Response Get Holidays Api V1 Holidays Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/timetable-swaps:
+    get:
+      tags:
+      - Holidays & Swaps
+      summary: Get Timetable Swaps / Working Saturdays
+      description: Retrieve days where an alternate day timetable is followed (e.g.
+        Saturday with Monday timetable).
+      operationId: get_timetable_swaps_api_v1_timetable_swaps_get
+      parameters:
+      - name: start_date
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Start date (YYYY-MM-DD)
+          title: Start Date
+        description: Start date (YYYY-MM-DD)
+      - name: end_date
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: End date (YYYY-MM-DD)
+          title: End Date
+        description: End date (YYYY-MM-DD)
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CalendarDayEntry'
+                title: Response Get Timetable Swaps Api V1 Timetable Swaps Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/milestones:
+    get:
+      tags:
+      - Milestones & Stats
+      summary: List Academic Milestones
+      description: List major academic milestones including examinations, class committee
+        meetings, feedback, and commencements.
+      operationId: get_academic_milestones_api_v1_milestones_get
+      parameters:
+      - name: category
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: 'Category: ''commencement'', ''midterm_exam'', ''practical_exam'',
+            ''end_semester_exam'', ''faculty_feedback'', ''committee_meeting'', ''last_instruction_day'''
+          title: Category
+        description: 'Category: ''commencement'', ''midterm_exam'', ''practical_exam'',
+          ''end_semester_exam'', ''faculty_feedback'', ''committee_meeting'', ''last_instruction_day'''
+      - name: cohort
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: 'Cohort: ''senior_ug_pg'', ''first_year'', or ''all'''
+          title: Cohort
+        description: 'Cohort: ''senior_ug_pg'', ''first_year'', or ''all'''
+      - name: semester_type
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: 'Semester: ''odd'' or ''even'''
+          title: Semester Type
+        description: 'Semester: ''odd'' or ''even'''
+      - name: start_date
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Filter from date (YYYY-MM-DD)
+          title: Start Date
+        description: Filter from date (YYYY-MM-DD)
+      - name: end_date
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Filter to date (YYYY-MM-DD)
+          title: End Date
+        description: Filter to date (YYYY-MM-DD)
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/MilestoneEntry'
+                title: Response Get Academic Milestones Api V1 Milestones Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/upcoming:
+    get:
+      tags:
+      - Events & Search
+      summary: Get Upcoming Events & Milestones
+      description: Get the next upcoming events and holidays starting from a reference
+        date.
+      operationId: get_upcoming_events_api_v1_upcoming_get
+      parameters:
+      - name: reference_date
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Reference date (YYYY-MM-DD). Defaults to current date or start
+            of calendar.
+          examples:
+          - '2026-06-01'
+          title: Reference Date
+        description: Reference date (YYYY-MM-DD). Defaults to current date or start
+          of calendar.
+      - name: days_ahead
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: integer
+            maximum: 365
+            minimum: 1
+          - type: 'null'
+          description: Lookahead window in days
+          title: Days Ahead
+        description: Lookahead window in days
+      - name: cohort
+        in: query
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Cohort filter ('senior_ug_pg' or 'first_year')
+          title: Cohort
+        description: Cohort filter ('senior_ug_pg' or 'first_year')
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 50
+          minimum: 1
+          description: Max upcoming events
+          default: 10
+          title: Limit
+        description: Max upcoming events
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CalendarDayEntry'
+                title: Response Get Upcoming Events Api V1 Upcoming Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/stats/class-days:
+    get:
+      tags:
+      - Milestones & Stats
+      summary: Count Instructional and Working Days
+      description: Calculate total working days, holidays, vacation days, and instructional
+        class days in a given date range.
+      operationId: count_class_days_api_v1_stats_class_days_get
+      parameters:
+      - name: start_date
+        in: query
+        required: true
+        schema:
+          type: string
+          description: Start date (YYYY-MM-DD)
+          examples:
+          - '2026-06-10'
+          title: Start Date
+        description: Start date (YYYY-MM-DD)
+      - name: end_date
+        in: query
+        required: true
+        schema:
+          type: string
+          description: End date (YYYY-MM-DD)
+          examples:
+          - '2026-10-16'
+          title: End Date
+        description: End date (YYYY-MM-DD)
+      - name: cohort
+        in: query
+        required: false
+        schema:
+          type: string
+          description: 'Cohort: ''senior_ug_pg'', ''first_year'', or ''all'''
+          examples:
+          - senior_ug_pg
+          default: senior_ug_pg
+          title: Cohort
+        description: 'Cohort: ''senior_ug_pg'', ''first_year'', or ''all'''
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ClassDayCountResult'
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/v1/export/full:
+    get:
+      tags:
+      - System & Spec
+      summary: Export Full Calendar Raw JSON
+      description: Export the complete raw academic calendar dataset.
+      operationId: export_full_calendar_api_v1_export_full_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+  /openapi.yaml:
+    get:
+      tags:
+      - System & Spec
+      summary: Export OpenAPI Specification in YAML Format
+      description: Returns the OpenAPI specification in YAML format for tooling compatibility.
+      operationId: get_openapi_yaml_openapi_yaml_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+  /health:
+    get:
+      tags:
+      - System & Spec
+      summary: Health Check
+      description: Returns service health and dataset status.
+      operationId: health_check_health_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+components:
+  schemas:
+    CalendarDayEntry:
+      properties:
+        date:
+          type: string
+          title: Date
+          description: Date in YYYY-MM-DD format
+        day:
+          type: string
+          title: Day
+          description: Day of week abbreviated (Mon, Tue, Wed, Thu, Fri, Sat, Sun)
+        status:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Status
+          description: 'Raw status code: ''W'' (Working for Staff), ''CD'' (Working
+            for Staff & Students), ''H'' (Holiday), or None'
+        status_description:
+          type: string
+          title: Status Description
+          description: Human-readable explanation of status
+        is_holiday:
+          type: boolean
+          title: Is Holiday
+          description: True if marked as Holiday (H)
+        is_working_day:
+          type: boolean
+          title: Is Working Day
+          description: True if marked as Working Day (W or CD)
+        senior_class_day:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Senior Class Day
+          description: Class Day number for II, III, IV Year UG and II Year PG (e.g.
+            CD01)
+        first_year_class_day:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: First Year Class Day
+          description: Class Day number for I Year UG and I Year PG (e.g. CD01)
+        details:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Details
+          description: Official events, holiday names, exam notices, or meeting schedules
+        event_type:
+          type: string
+          title: Event Type
+          description: 'Categorized event type: holiday, exam, practical_exam, commencement,
+            feedback, committee_meeting, timetable_swap, non_instructional, regular'
+        special_timetable:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Special Timetable
+          description: If a swapped day timetable is followed (e.g. 'Monday TT', 'Friday
+            TT')
+      type: object
+      required:
+      - date
+      - day
+      - status_description
+      - is_holiday
+      - is_working_day
+      - event_type
+      title: CalendarDayEntry
+    CalendarMetadata:
+      properties:
+        institution:
+          type: string
+          title: Institution
+          description: Institution name
+        document_title:
+          type: string
+          title: Document Title
+          description: Official document title
+        version:
+          type: string
+          title: Version
+          description: Document revision version
+        academic_year:
+          type: string
+          title: Academic Year
+          description: Academic year (e.g., 2026-27)
+        prepared_by:
+          type: string
+          title: Prepared By
+          description: Campus Timetable Coordinator
+        approved_by:
+          type: string
+          title: Approved By
+          description: Principal / Approving authority
+        note:
+          type: string
+          title: Note
+          description: Official administrative note
+        legend:
+          additionalProperties:
+            type: string
+          type: object
+          title: Legend
+          description: Legend of status codes
+        columns_in_source:
+          items:
+            type: string
+          type: array
+          title: Columns In Source
+          description: Columns present in source table
+        total_days:
+          type: integer
+          title: Total Days
+          description: Total calendar entries count
+        start_date:
+          type: string
+          title: Start Date
+          description: First date in calendar (YYYY-MM-DD)
+        end_date:
+          type: string
+          title: End Date
+          description: Last date in calendar (YYYY-MM-DD)
+      type: object
+      required:
+      - institution
+      - document_title
+      - version
+      - academic_year
+      - prepared_by
+      - approved_by
+      - note
+      - legend
+      - columns_in_source
+      - total_days
+      - start_date
+      - end_date
+      title: CalendarMetadata
+    ClassDayCountResult:
+      properties:
+        start_date:
+          type: string
+          title: Start Date
+        end_date:
+          type: string
+          title: End Date
+        total_calendar_days:
+          type: integer
+          title: Total Calendar Days
+        working_days_count:
+          type: integer
+          title: Working Days Count
+        holidays_count:
+          type: integer
+          title: Holidays Count
+        vacation_or_unassigned_days_count:
+          type: integer
+          title: Vacation Or Unassigned Days Count
+        senior_instructional_days:
+          type: integer
+          title: Senior Instructional Days
+        first_year_instructional_days:
+          type: integer
+          title: First Year Instructional Days
+        instructional_saturdays_count:
+          type: integer
+          title: Instructional Saturdays Count
+        cohort_requested:
+          type: string
+          title: Cohort Requested
+        instructional_days_for_cohort:
+          type: integer
+          title: Instructional Days For Cohort
+      type: object
+      required:
+      - start_date
+      - end_date
+      - total_calendar_days
+      - working_days_count
+      - holidays_count
+      - vacation_or_unassigned_days_count
+      - senior_instructional_days
+      - first_year_instructional_days
+      - instructional_saturdays_count
+      - cohort_requested
+      - instructional_days_for_cohort
+      title: ClassDayCountResult
+    HTTPValidationError:
+      properties:
+        detail:
+          items:
+            $ref: '#/components/schemas/ValidationError'
+          type: array
+          title: Detail
+      type: object
+      title: HTTPValidationError
+    MilestoneEntry:
+      properties:
+        date:
+          type: string
+          title: Date
+          description: Milestone date (YYYY-MM-DD)
+        day:
+          type: string
+          title: Day
+          description: Day of week
+        category:
+          type: string
+          title: Category
+          description: 'Category: commencement, midterm_exam, practical_exam, end_semester_exam,
+            faculty_feedback, committee_meeting, last_instruction_day'
+        cohort:
+          type: string
+          title: Cohort
+          description: 'Affected cohort: senior_ug_pg, first_year, or all'
+        semester_type:
+          type: string
+          title: Semester Type
+          description: 'Semester type: odd, even, or both'
+        details:
+          type: string
+          title: Details
+          description: Event details description
+        senior_cd:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Senior Cd
+        first_year_cd:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: First Year Cd
+      type: object
+      required:
+      - date
+      - day
+      - category
+      - cohort
+      - semester_type
+      - details
+      title: MilestoneEntry
+    ValidationError:
+      properties:
+        loc:
+          items:
+            anyOf:
+            - type: string
+            - type: integer
+          type: array
+          title: Location
+        msg:
+          type: string
+          title: Message
+        type:
+          type: string
+          title: Error Type
+        input:
+          title: Input
+        ctx:
+          type: object
+          title: Context
+      type: object
+      required:
+      - loc
+      - msg
+      - type
+      title: ValidationError
+tags:
+- name: Calendar Metadata
+  description: General calendar document info, version, and legend
+- name: Date Queries
+  description: Look up dates, day status, and class schedules
+- name: Events & Search
+  description: Search events, filtered date ranges, and activities
+- name: Holidays & Swaps
+  description: Holidays, festivals, and Saturday timetable orders
+- name: Milestones & Stats
+  description: Exam schedules, commencement dates, and instructional day counters
+- name: System & Spec
+  description: Health checks, raw export, and OpenAPI specification endpoints
